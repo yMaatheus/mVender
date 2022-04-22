@@ -1,0 +1,29 @@
+##
+## Sistema de Vender para Rankup
+## Dependencias: Vault
+##
+Itens:
+    membro: ##Esse nome será o que é usado no comando e na permissão. Exemplo: /vender membro e vender.membro
+     terra:
+      id: '3'
+      valor: '1'
+     cactus:
+      id: '81'
+      valor: '2'
+     stone:
+      id: '1'
+      valor: '3'
+    vip:
+     terra:
+      id: '3'
+      valor: '2'
+     cactus:
+      id: '81'
+      valor: '3'
+     stone:
+      id: '1'
+      valor: '4'
+noperm: '&cSem permissão.'
+use: '&cUse: /vender (rank).'
+vender: '&aVocê vendeu &f%quantidade% &apor &f%valor%&a.'
+consoledebug: false
