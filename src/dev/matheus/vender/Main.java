@@ -31,7 +31,7 @@ public class Main extends JavaPlugin {
 			grupos.add(grupo);
 		}
 		if (getConfig().getBoolean("consoledebug")) {
-			Bukkit.getConsoleSender().sendMessage("§eVender INFO:");
+			Bukkit.getConsoleSender().sendMessage("§emVender INFO:");
 			Bukkit.getConsoleSender().sendMessage("");
 		}
 		for (String grupo : grupos) {
